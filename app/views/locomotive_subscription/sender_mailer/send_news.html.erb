@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>Добрый день!</p>
+    <p>Автоматическая рассылка новостей с сайта "Комитет по делам молодежи Тверской области" - <a href="http://kdm69.ru" target='_blank'>www.kdm69.ru</a></p>
+    <p></p>
+    <table cellpadding="0" cellspacing="10" border="0">
+        <tbody>
+            <tr>
+                <td><h1>Все новости</h1></td>
+            </tr>
+            <% @news.each do |new| %>
+                <tr>
+                    <font>
+                        <a href='<%= @address %>/news/<%= new['_slug']['ru'] %>' target="_blank"><img src=<%= @address %><%= new.image.url%>></a>
+                        <font><%= new.date.strftime('%d.%d.%Y') %></font>
+                        <br>
+                        <a href='<%= @address %>/news/<%= new['_slug']['ru'] %>' target="_blank"><b><%= new.title %></b></a>
+                        <br>
+                        <%= new.anons %>
+                    </font>
+                </tr>
+            <% end %>
+        </tbody>
+    </table>
+  </body>
+</html>
