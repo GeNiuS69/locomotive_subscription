@@ -1,3 +1,4 @@
+#encoding: utf-8
 module LocomotiveSubscription
   class SenderMailer < ActionMailer::Base
     default from: "info@kdm69.ru",
