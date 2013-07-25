@@ -1,7 +1,7 @@
 module LocomotiveSubscription
   class Subscription
     include Locomotive::Mongoid::Document
-    include Locomotive::Engine
+    include Locomotive
     field :email, type: String
     
     def self.send_news
