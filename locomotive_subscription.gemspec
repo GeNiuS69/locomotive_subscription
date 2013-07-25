@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.2.13"
   s.add_dependency "whenever"
+  s.add_dependency "locomotive_cms", '~> 2.2.2', require: 'locomotive/engine'
   # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "mongodb"
