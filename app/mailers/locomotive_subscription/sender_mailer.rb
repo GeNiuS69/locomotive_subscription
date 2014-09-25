@@ -5,7 +5,7 @@ module LocomotiveSubscription
             subject: "Все новости КДМ ТО"
 
     def send_news(email,news)
-        @address = "http://198.199.124.29:7777"
+        @address = "http://kdm69.ru"
         @news = news
         mail(to: email)
     end
