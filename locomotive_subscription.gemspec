@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = LocomotiveSubscription::VERSION
   s.authors     = ["Alexander Nigomatulin"]
   s.email       = ["example@yandex.ru"]
-  s.homepage    = "not exist"
+  s.homepage    = "https://github.com/GeNiuS69"
   s.summary     = "Summary of LocomotiveSubscription."
   s.description = "It is gem for subscribe users to news subscription"
 
