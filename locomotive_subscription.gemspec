@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.version     = LocomotiveSubscription::VERSION
   s.authors     = ["Alexander Nigomatulin"]
   s.email       = ["example@yandex.ru"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of LocomotiveSubscription."
+  s.homepage    = "not exist"
+  s.summary     = "Summary of LocomotiveSubscription."
   s.description = "It is gem for subscribe users to news subscription"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
