@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = "locomotive_subscription"
   s.version     = LocomotiveSubscription::VERSION
   s.authors     = ["Alexander Nigomatulin"]
-  s.email       = ["TODO: Your email"]
+  s.email       = ["example@yandex.ru"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of LocomotiveSubscription."
   s.description = "TODO: Description of LocomotiveSubscription."
